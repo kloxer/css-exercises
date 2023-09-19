@@ -73,8 +73,8 @@ button{
 .left-links, .right-links{
   display:flex;
   align-items: center;
-  gap:12px;
-  padding:0 12px 0 12px;
+  gap:15px;
+  padding:0 15px 0 15px;
 
 }
 
