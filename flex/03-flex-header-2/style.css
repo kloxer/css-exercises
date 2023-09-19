@@ -46,3 +46,23 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*solution*/
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding:8px;
+}
+
+ul{
+  display:flex;
+  margin:0px;
+  padding:0px;
+  gap:8px;
+}
+.left, .right{
+  display:flex;
+  align-items: center;
+  gap:16px; /* i see, so its atleast a gap of 16px between items */
+}
