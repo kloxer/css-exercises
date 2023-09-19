@@ -25,3 +25,66 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* sol */
+
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:0px;
+  
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.middle{
+  display:flex;
+  flex-direction:  column;
+  justify-content: center;
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  padding: 8px 12px 8px 12px;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #e7e7e7;
+}
+
+
+.left-links, .right-links{
+  display:flex;
+  align-items: center;
+  gap:12px;
+  padding:0 12px 0 12px;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color:rgb(61, 61, 61);
+}
+
+ul {
+  list-style-type: none;
+
+}
